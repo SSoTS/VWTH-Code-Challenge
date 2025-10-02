@@ -6,16 +6,13 @@
 
 ## 📌 Overview
 
-This project implements a robot simulation inside a factory floor.\
+This project implements a robot simulation inside a factory floor.
 Robots move on a 2D grid, turn left/right, and execute sequences of
-commands.\
-The simulation ensures robots:\
-- stay within the defined grid boundaries,\
-- avoid collisions with each other,\
+commands.
+The simulation ensures robots:
+- stay within the defined grid boundaries,
+- avoid collisions with each other,
 - execute command sequences as defined in an input file.
-
-The solution follows **Hexagonal Architecture** to keep domain logic
-independent from input/output concerns.
 
 ------------------------------------------------------------------------
 
@@ -41,7 +38,7 @@ independent from input/output concerns.
 ## 🧩 Domain Model
 
 -   **Robot**
-    -   State: `id`, `x`, `y`, `direction`\
+    -   State: `id`, `x`, `y`, `direction`
     -   Behavior: `rotateLeft()`, `rotateRight()`, `moveForward()`,
         `executeCommand()`
 -   **Direction**
@@ -49,8 +46,8 @@ independent from input/output concerns.
 -   **Command**
     -   Enum: `LEFT (L)`, `RIGHT (R)`, `MOVE (M)`
 -   **FactoryFloor**
-    -   Holds grid boundaries\
-    -   Tracks robots' positions\
+    -   Holds grid boundaries
+    -   Tracks robots' positions
     -   Referees moves (`tryMove`)
 
 ------------------------------------------------------------------------
