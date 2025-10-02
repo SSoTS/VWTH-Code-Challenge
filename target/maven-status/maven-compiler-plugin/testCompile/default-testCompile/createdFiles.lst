@@ -1,0 +1,5 @@
+com\vwth\challenge\domain\RobotCommandTest.class
+com\vwth\challenge\domain\FactoryFloorTest.class
+com\vwth\challenge\domain\RobotTest.class
+com\vwth\challenge\infrastructure\CommandParserTest.class
+com\vwth\challenge\application\SimulationServiceTest.class

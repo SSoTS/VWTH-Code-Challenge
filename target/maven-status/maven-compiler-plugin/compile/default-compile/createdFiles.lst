@@ -1,0 +1,13 @@
+com\vwth\challenge\infrastructure\FileInputAdapter.class
+com\vwth\challenge\application\SimulationService$RobotInstructions.class
+com\vwth\challenge\application\SimulationService.class
+com\vwth\challenge\domain\Command.class
+com\vwth\challenge\domain\FactoryFloor.class
+com\vwth\challenge\domain\Robot.class
+com\vwth\challenge\domain\Direction.class
+com\vwth\challenge\App.class
+com\vwth\challenge\domain\FactoryFloor$1.class
+com\vwth\challenge\infrastructure\FileInputAdapter$SimulationInput.class
+com\vwth\challenge\infrastructure\FileInputAdapter$RobotCommands.class
+com\vwth\challenge\infrastructure\CommandParser.class
+com\vwth\challenge\domain\Robot$1.class
